@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.overall{
+    display: flex;
+}
+.overall .left{
+    background-color: #444444;
+    width: 20%;
+    height: 100vh;
+    padding: 2em 1em;
+}
+.overall .left h4{
+    color: #cfcfcf;
+    font-weight: 300;
+    font-size: 20px;
+}
+.overall .left .line{
+    width: 100%;
+    height: 1px;
+    margin-top: 5%;
+    background-color: #cfcfcf;
+}
+.overall .left .menu_items{
+    margin-top: 10%;
+}
+.overall .left .menu_items h5{
+    font-size: 13px;
+    color: #cfcfcf;
+}
+.overall .left .menu_items ul a{
+    text-decoration: none;
+}
+.overall .left .menu_items ul a li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+    color: #cfcfcf;
+}
+.overall .left .menu_items ul a li div{
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: solid;
+    margin-right: 5%;
+}
+.overall .left .menu_items ul a li div.circle_red{
+    border-color: #d82020;
+}
+.overall .left .menu_items ul a li div.circle_yellow{
+    border-color: #e7e31e;
+}
+.overall .right{
+    background-color: #e4edeb;
+    width: 80%;
+    height: 100vh;
+    padding: 2em;
+}
+.overall .right .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.overall .right .heading h4{
+    color: #575757;
+}
+.overall .right .heading p#minor_heading {
+    color: #595959;
+
+}
+.overall .right .heading p a{
+    text-decoration: none;
+}
+.overall .right .main_tab{
+    width: 85%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+.overall .right .tab_headings{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #a5a5a5 ;
+    padding-left: 1em;
+}
+.overall .right .tab_headings .tab_buttons ul{
+    list-style: none;
+    display: flex;
+}
+.overall .right .tab_headings .tab_buttons ul li{
+    margin-right: 10px;
+}
+.overall .right .tab_headings .tab_buttons ul li button{
+    font-size: 14px;
+}
+.overall .right .main_tab_components{
+    display: flex;
+    padding: 2em;
+}
+.overall .right .main_tab_components .main_tab_left{
+    width: 50%;
+}
+.overall .right .main_tab_components .main_tab_left form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.overall .right .main_tab_components .main_tab_left form div label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.overall .right .main_tab_components .main_tab_left form div ::placeholder{
+    font-size: 12px;
+}
+.overall .right .main_tab_components .main_tab_left form div button{
+    width: 25%;
+    font-size: 13px;
+}
+.overall .right .main_tab_components .button_group{
+    display: flex;
+}
+.overall .right .main_tab_components .button_group button{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.overall .right .main_tab_components .main_tab_right{
+    padding-left: 2em;
+    width: 50%;
+}
+.overall .right .main_tab_components .main_tab_right p{
+    font-size: 14px;
+}
+.overall .right .main_tab_components .main_tab_right div.results_placeholder{
+    width: 100%;
+    height: 25vh;
+    border-radius: 7px;
+    background-color: #164ec7;
+}
