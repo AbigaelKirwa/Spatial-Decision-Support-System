@@ -111,21 +111,21 @@ body{
     flex-direction: column;
     margin-bottom: 1em;
 }
-.overall .right .main_tab_components .main_tab_left form div label{
+form div label{
     font-size: 14px;
     font-weight: 500;
 }
-.overall .right .main_tab_components .main_tab_left form div ::placeholder{
+form div ::placeholder{
     font-size: 12px;
 }
 .overall .right .main_tab_components .main_tab_left form div button{
     width: 25%;
     font-size: 13px;
 }
-.overall .right .main_tab_components .button_group{
+.button_group{
     display: flex;
 }
-.overall .right .main_tab_components .button_group button{
+.button_group button{
     font-size: 13px;
     margin-right: 5px;
 }
@@ -141,4 +141,66 @@ body{
     height: 25vh;
     border-radius: 7px;
     background-color: #164ec7;
+}
+
+/* alleviation page stylying */
+
+input[type="date"], select.form-select{
+    font-size: 12px; /* Adjust the font size to make the text smaller */
+    height: 6vh;
+}
+input[type="radio"]#exampleRadios2{
+    width: 12px;
+    height: 12px;
+    margin-top: 9px;
+    border-color: #575757;
+}
+select.form-select-sm{
+    margin-top: 5px;
+}
+
+.overall .right .alleviation_main_tab_components{
+    padding: 2em;
+}
+
+.overall .right .alleviation_main_tab_components .alleviation_main_tab_left{
+    width: 100%;
+}
+.overall .right .alleviation_main_tab_components .alleviation_main_tab_left form select, .overall .right .alleviation_main_tab_components .alleviation_main_tab_left form input{
+    width: 300px;
+    margin-bottom: 5%;
+}
+.overall .right .alleviation_main_tab_components .alleviation_main_tab_left form .form_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.overall .right .alleviation_main_tab_components .alleviation_main_tab_left form .form_row button{
+    font-size: 13px;
+}
+.overall .right .alleviation_main_tab_components .alleviation_main_tab_left .intervention{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.intervention .primary label.primary , .intervention .secondary label.secondary{
+    font-size: 14px;
+    font-weight: 500;
+}
+.intervention .primary label#small_label, .intervention .secondary label#small_label{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* monitoring styling */
+
+.monitoring_display{
+    display: flex;
+    float: right;  
+}
+.monitoring_display button{
+    font-size: 13px;
+    margin-top: -20px;
 }
